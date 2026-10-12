@@ -1,0 +1,4 @@
+repository "JUEGO DE PRACTICA/JUEGO DE PRACTICA@4674246676962@cloud"
+  path "/"
+    br "/main"
+    co "/main"
