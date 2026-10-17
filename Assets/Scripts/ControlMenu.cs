@@ -1,6 +1,10 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class NewEmptyCSharpScript
+public class ControlMenu : MonoBehaviour
 {
-    
+    public void Jugar()
+    {
+        SceneManager.LoadScene("NivelUno");
+    }
 }
