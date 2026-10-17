@@ -8,8 +8,3 @@ public class ControlMenu : MonoBehaviour
         SceneManager.LoadScene("NivelUno");
     }
 }
-public void VolverAlMenu()
-{
-    UnityEngine.SceneManagement.SceneManager.LoadScene("MenuInicial");
-}
-
