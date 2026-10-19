@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Cuenta cuántas frutas hay al empezar
+        // Cuenta cuantas frutas hay al empezar
         totalFruits = FindObjectsByType<FruitCollector>(FindObjectsSortMode.None).Length;
         Debug.Log("Frutas totales: " + totalFruits);
     }
@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour
         if (fruitsCollected >= totalFruits)
         {
             Debug.Log("¡GANASTE!");
-            // Más adelante pondremos la pantalla de victoria
+            // Mas adelante pondremos la pantalla de victoria
         }
     }
 }
